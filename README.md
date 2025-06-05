@@ -63,13 +63,13 @@ Northwind representa las operaciones comerciales de una empresa de distribución
 2. Crear la base de datos:
 
    ```bash
-   createdb northwind_mod -U postgres
+   createdb northwind_mod -U tu_usuario_postgres
    ```
 
 3. Restaurar el dump completo:
 
    ```bash
-   psql -U postgres -d northwind_mod -f backup_northwindo.sql
+   psql -U tu_usuario -d northwind_mod -f backup_northwindo.sql
    ```
 
 ---
