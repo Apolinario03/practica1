@@ -56,20 +56,20 @@ Northwind representa las operaciones comerciales de una empresa de distribución
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/northwind-postgresql-mod.git
+   git clone https://github.com/Apolinario03/practica1.git
    cd northwind-postgresql-mod
    ```
 
 2. Crear la base de datos:
 
    ```bash
-   createdb northwind_mod
+   createdb northwind_mod -U postgres
    ```
 
 3. Restaurar el dump completo:
 
    ```bash
-   psql -U tu_usuario -d northwind_mod -f backup_northwindo.sql
+   psql -U postgres -d northwind_mod -f backup_northwindo.sql
    ```
 
 ---
