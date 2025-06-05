@@ -57,7 +57,7 @@ Northwind representa las operaciones comerciales de una empresa de distribución
 
    ```bash
    git clone https://github.com/Apolinario03/practica1.git
-   cd northwind-postgresql-mod
+   cd practica1
    ```
 
 2. Crear la base de datos:
